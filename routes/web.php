@@ -25,8 +25,14 @@ Route::get('/signup', function () {
 Route::get('/profile', function () {
     return view('usersite/profile');
 });
+Route::get('/reminder ', function () {
+    return view('usersite/reminder ');
+});
 Route::get('/scheduled ', function () {
     return view('usersite/scheduled ');
+});
+Route::get('/forgetpwd ', function () {
+    return view('usersite/forgetpwd ');
 });
 
 
